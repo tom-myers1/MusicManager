@@ -1,0 +1,24 @@
+{
+  "name": "musicmanager",
+  "version": "1.0.0",
+  "description": "Basic app for managing vinyl data",
+  "main": "app.js",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "winston": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tom-myers1/MusicManager.git"
+  },
+  "author": "Tom Myers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tom-myers1/MusicManager/issues"
+  },
+  "homepage": "https://github.com/tom-myers1/MusicManager#readme"
+}
