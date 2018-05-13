@@ -1,5 +1,5 @@
 const http = require('http');
-const log = require('./log.js');
+const log = require('./log');
 const fs = require('fs');
 const hostname = '127.0.0.1';
 const port = 3000;
@@ -20,6 +20,6 @@ fs.readFile('index.html', (err, html) => {
 	});
 
 	server.listen(port, hostname, () => {
-		console.log('Server started on port '+port);
+		log('Server started on port '+port);
 	});
 });
